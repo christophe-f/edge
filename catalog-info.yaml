@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: edge
+  description: |
+    coolstore-demo edge
+  annotations:
+    github.com/project-slug: christophe-f/edge
+spec:
+  type: website
+  owner: janus-authors
+  lifecycle: experimental
